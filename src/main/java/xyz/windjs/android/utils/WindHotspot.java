@@ -16,11 +16,7 @@ public class WindHotspot {
 
     public static void init(){
         if (windHotspot == null) {
-            synchronized (windHotspot) {
-                if (windHotspot == null) {
-                    windHotspot = new WindHotspot();
-                }
-            }
+            windHotspot = new WindHotspot();
         }
     }
 
