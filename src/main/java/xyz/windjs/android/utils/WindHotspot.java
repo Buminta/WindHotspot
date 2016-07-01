@@ -14,10 +14,17 @@ public class WindHotspot {
 
     public static WindHotspot windHotspot;
 
-    public static WindHotspot getInstance(){
-        if(windHotspot == null){
-            windHotspot = new WindHotspot();
+    public static void init(){
+        if (windHotspot == null) {
+            synchronized (windHotspot) {
+                if (windHotspot == null) {
+                    windHotspot = new WindHotspot();
+                }
+            }
         }
+    }
+
+    public static WindHotspot getInstance(){
         return windHotspot;
     }
 
