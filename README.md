@@ -1,6 +1,12 @@
 # WindHotspot for Android
 Bind and Unbind custom everyone events with everyone arguments method in everywhere
 
+## Init for use it
+
+```
+WindHotspot.init(); // Use it from onCreate Application or Activity only one
+```
+
 
 ## Register event 
 
