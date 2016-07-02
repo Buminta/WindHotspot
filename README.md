@@ -14,7 +14,7 @@ Bind and Unbind custom everyone events with everyone arguments method in everywh
 ####  Gradle
 ```
 repositories {
-  mavenCentral()
+  jcenter()
 }
 dependencies {
   compile 'xyz.windjs.android:WindHotspot:0.0.1'
