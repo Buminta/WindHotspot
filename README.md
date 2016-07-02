@@ -1,6 +1,21 @@
 # WindHotspot for Android
 Bind and Unbind custom everyone events with everyone arguments method in everywhere
 
+#### Maven
+```
+<dependency>
+  <groupId>xyz.windjs.android</groupId>
+  <artifactId>WindHotspot</artifactId>
+  <version>0.0.1</version>
+  <type>pom</type>
+</dependency>
+```
+
+####  Gradle
+```
+compile 'xyz.windjs.android:WindHotspot:0.0.1'
+```
+
 ## Init for use it
 
 ```
